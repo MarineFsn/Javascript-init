@@ -1,11 +1,12 @@
-let min = parseInt(prompt("Enter the minimum number: "));
-let max = parseInt(prompt("Enter the maximum number: "));
-let current = parseInt(prompt("Enter the current number:"));
+let number = 0;
 
-if (current >=min && current <=max) {
-    console.log ("you win!")
-}
+while (number !== 42) {
+    number = parseInt(prompt("What's your favorite number?"));
 
-else if (min > max) {
-    console.log ("ERROR")
-}
+if (number !==42) {
+    console.log ("Are you sure ?");
+} 
+}  
+
+console.log("congratz! 42 is the right number !")
+
