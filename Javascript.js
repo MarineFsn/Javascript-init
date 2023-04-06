@@ -1,11 +1,8 @@
-let min = parseInt(prompt("Enter the minimum number: "));
-let max = parseInt(prompt("Enter the maximum number: "));
-let current = parseInt(prompt("Enter the current number:"));
+for (let i =1 ; i <=100; i++) {
+    if (i % 2 ===0) {
+        console.log (i / 2);
 
-if (current >=min && current <=max) {
-    console.log ("you win!")
-}
-
-else if (min > max) {
-    console.log ("ERROR")
+    }else{
+        console.log (i * 3);
+    }
 }
