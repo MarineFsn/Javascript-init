@@ -1,11 +1,5 @@
-let min = parseInt(prompt("Enter the minimum number: "));
-let max = parseInt(prompt("Enter the maximum number: "));
-let current = parseInt(prompt("Enter the current number:"));
+let arr = ["Alexandra", "Delphine", "willy", "Abel", "Steve", "Jodie","Louka"];
 
-if (current >=min && current <=max) {
-    console.log ("you win!")
-}
-
-else if (min > max) {
-    console.log ("ERROR")
+for (let elem of arr) {
+  console.log( elem + " is a Learner from Wilson2")
 }
