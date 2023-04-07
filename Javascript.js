@@ -1,11 +1,20 @@
-let min = parseInt(prompt("Enter the minimum number: "));
-let max = parseInt(prompt("Enter the maximum number: "));
-let current = parseInt(prompt("Enter the current number:"));
+/**
+ * calcule la surface d'un rectangle
+ * @param {number} a = num 1
+ * @param {number} b = num 2
+ * @returns num1 * num2
+ */
 
-if (current >=min && current <=max) {
-    console.log ("you win!")
+function calcSurface(a,b) {
+return a * b ;
 }
 
-else if (min > max) {
-    console.log ("ERROR")
-}
+console.log("the sum of the rectangle is " + calcSurface (4,3));
+
+
+ 
+
+
+
+
+
