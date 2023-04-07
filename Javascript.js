@@ -1,11 +1,28 @@
-let min = parseInt(prompt("Enter the minimum number: "));
-let max = parseInt(prompt("Enter the maximum number: "));
-let current = parseInt(prompt("Enter the current number:"));
 
-if (current >=min && current <=max) {
-    console.log ("you win!")
+/*function rand10(a) 
+{
+
+return a = (Math.floor (Math.random() *10)+1);
+}
+console.log(rand10());*/
+
+/**
+ * 
+ * @param {*} n 
+ * @returns 
+ */
+
+
+function multirand(n)
+{
+return n = (Math.floor (Math.random() *10)+1);
 }
 
-else if (min > max) {
-    console.log ("ERROR")
+b = prompt("Choose a Number:");
+
+for( i=0 ; i<b ; i++ ) {
+
+
+console.log(multirand());
+
 }
